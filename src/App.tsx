@@ -4,8 +4,9 @@ import Timer from './components/Timer';
 function App() {
 
   return (
-    <div className="flex h-screen bg-gray-100 text-8xl justify-center">
+    <div className="flex h-screen text-8xl justify-left bg-blue-100">
       <Timer />
+      
     </div>
   )
 }
