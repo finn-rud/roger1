@@ -1,13 +1,11 @@
-
+import Timer from './components/Timer';
 
 
 function App() {
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="flex h-screen bg-gray-100 text-8xl justify-center">
+      <Timer />
     </div>
   )
 }
